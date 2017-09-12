@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sy.greendaotextdemo.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/et_inputname"
+            android:layout_width="200dip"
+            android:layout_height="60dip"
+            android:hint="输入测试账号"/>
+        <EditText
+            android:id="@+id/et_inputpw"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:hint="输入测试密码"
+            />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/bt_tomdpw"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:text="转换并且保存" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/et_queryname"
+            android:layout_width="200dip"
+            android:layout_height="60dip"
+            android:hint="输入查询用户名"/>
+        <EditText
+            android:id="@+id/et_querpw"
+            android:layout_width="200dip"
+            android:layout_height="60dip"
+            android:hint="输入查询密码"/>
+    </LinearLayout>
+   <Button
+       android:id="@+id/bt_querypw"
+       android:layout_width="match_parent"
+       android:layout_height="60dip"
+       android:text="查询"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/et_updataname"
+            android:layout_width="200dip"
+            android:layout_height="60dip" />
+
+        <EditText
+            android:id="@+id/et_updatapwd"
+            android:layout_width="200dip"
+            android:layout_height="60dip" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/bt_updatapwd"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:text="更新修改密码"/>
+
+
+
+
+
+</LinearLayout>
